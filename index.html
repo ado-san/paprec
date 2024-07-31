@@ -38,12 +38,12 @@
 
  <section class="intro-section">
    <div class="video-container">
-        <video class="intro-video" id="intro-video" controls autoplay muted loop>
-            <source src="videos/video-intro-paprec.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <img id="fallbackImage" src="images/image-intro-paprec.jpg" alt="Fallback Image">
-   </div>
+      <video id="myVideo" controls>
+          <source src="path/to/your/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      <img id="fallbackImage" src="images/image-intro-paprec.jpg" alt="Fallback Image">
+  </div>
    <img src="images/image-intro-paprec.jpg" alt="Intro Image" class="intro-image" id="intro-image">
    <div class="intro-text">BIENVENUE SUR LE SITE<br> OUANALAO ENVIRONNEMENT<br> ST BARTH</div>
  </section>
@@ -1183,15 +1183,15 @@
       });
    </script>
  <script>
-   document.addEventListener('DOMContentLoaded', () => {
-       const video = document.getElementById('intro-video');
-       const fallbackImage = document.getElementById('fallbackImage');
+         document.addEventListener('DOMContentLoaded', () => {
+            const video = document.getElementById('myVideo');
+            const fallbackImage = document.getElementById('fallbackImage');
 
-       video.addEventListener('error', () => {
-           video.style.display = 'none';
-           fallbackImage.style.display = 'block';
-       });
-   });
+            video.addEventListener('error', () => {
+                video.style.display = 'none';
+                fallbackImage.style.display = 'block';
+            });
+        }); 
 </script>
 
    </body>
