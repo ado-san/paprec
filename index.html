@@ -1169,15 +1169,20 @@
          <script src="js/a7bdac05b24347a77bc2ba39247eaaf9c12b11b8b5b7c8ffcd473c8cd1f4ef7d.js" async="" nonce="eb5f389d-fe7a-4027-97a1-f5d84f87765b"></script><script src="js/939898b427480d700449229ff00dbb8a6f9f77442b532f697866e6914ab8843a.js" async="" nonce="eb5f389d-fe7a-4027-97a1-f5d84f87765b"></script><script src="js/01c7ccc81a1289dedbdae34afe3477f60b4bd37c9b8a15eec37e59453e6d6fd3.js" async="" nonce="eb5f389d-fe7a-4027-97a1-f5d84f87765b"></script>
       </div>
 
-       <script>
-    document.getElementById('burger-menu').addEventListener('click', function() {
-    var menuItems = document.getElementById('menu-items');
-    if (menuItems.classList.contains('show')) {
-        menuItems.classList.remove('show');
-    } else {
-        menuItems.classList.add('show');
-    }
-});
-  </script>
+      <script>
+         document.getElementById('burger-menu').addEventListener('click', function() {
+         var menuItems = document.getElementById('menu-items');
+         if (menuItems.classList.contains('show')) {
+            menuItems.classList.remove('show');
+         } else {
+            menuItems.classList.add('show');
+         }
+      });
+
+      document.getElementById('intro-video').addEventListener('error', function() {
+         document.getElementById('intro-video').style.display = 'none';
+         document.getElementById('intro-image').style.display = 'block';
+      });
+   </script>
    </body>
 </html>
