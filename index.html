@@ -37,13 +37,16 @@
     </nav>
 
  <section class="intro-section">
-        <video class="intro-video" id="intro-video" autoplay muted loop>
+   <div class="video-container">
+        <video class="intro-video" id="intro-video" controls autoplay muted loop>
             <source src="videos/video-intro-paprec.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <img id="fallbackImage" src="images/image-intro-paprec.jpg" alt="Fallback Image">
         <img src="images/image-intro-paprec.jpg" alt="Intro Image" class="intro-image" id="intro-image">
         <div class="intro-text">BIENVENUE SUR LE SITE<br> OUANALAO ENVIRONNEMENT<br> ST BARTH</div>
-    </section>
+   </div>
+ </section>
 
       <div id="root">
          <a id="page-1" aria-hidden="true" style="visibility:hidden;"></a>
@@ -1178,11 +1181,18 @@
             menuItems.classList.add('show');
          }
       });
-
-      document.getElementById('intro-video').addEventListener('error', function() {
-         document.getElementById('intro-video').style.display = 'none';
-         document.getElementById('intro-image').style.display = 'block';
-      });
    </script>
+ <script>
+   document.addEventListener('DOMContentLoaded', () => {
+       const video = document.getElementById('intro-video');
+       const fallbackImage = document.getElementById('fallbackImage');
+
+       video.addEventListener('error', () => {
+           video.style.display = 'none';
+           fallbackImage.style.display = 'block';
+       });
+   });
+</script>
+
    </body>
 </html>
