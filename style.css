@@ -4,9 +4,18 @@ body {
   padding: 0;
 }
 
-#tfQzYNIWktKdYiNd:hover, #DzrYVaEeZjiybtAU:hover, #NaZ9oyAnOk0Adn9Z:hover {
-  color: #d3d3d3; /* Light grey color */
+#tfQzYNIWktKdYiNd:hover {
+  color: #d3d3d3 !important; /* Light grey color */
 }
+
+#DzrYVaEeZjiybtAU:hover {
+  color: #d3d3d3 !important; /* Light grey color */
+}
+
+#NaZ9oyAnOk0Adn9Z:hover {
+  color: #d3d3d3 !important; /* Light grey color */
+}
+
 
 .nav-menu {
   display: flex;
