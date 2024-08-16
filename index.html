@@ -26,7 +26,7 @@
         </div>
         <div class="burger-menu" id="burger-menu">&#9776;</div>
         <div class="menu-items" id="menu-items">
-             <a href="#SOSJ61LcqC0nRIaw><div class="menu-item">L’ÉCOPOLE</div></a>
+             <a href="#SOSJ61LcqC0nRIaw"><div class="menu-item">L’ÉCOPOLE</div></a>
              <a href="#WfMwJpauZWtQhmwa"><div class="menu-item">LES FILIÈRES</div></a>
              <a href="#tMuVCi8pvcaKUTiO"><div class="menu-item">L’UVE</div></a>
              <a href="#X3mS64ymKhqoJ5r6"><div class="menu-item">TRIER SES DÉCHETS</div></a>
@@ -1088,5 +1088,29 @@
         }); 
 </script>
 
-   </body>
+<button id="scrollToTopBtn" title="Go to top">↑</button>
+
+<script>
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    scrollToTopBtn.style.display  
+ = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"  
+
+  });
+});
+</script>
+   
+
+</body>
 </html>
