@@ -43,6 +43,7 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
+  float: left;
 }
 
 .logo {
@@ -53,6 +54,8 @@ body {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
+  float: right;
+  padding: 30px;
 }
 
 .menu-item {
