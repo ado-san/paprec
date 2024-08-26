@@ -31,13 +31,13 @@ body {
 }
 
 .nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative; /* Ensure relative positioning for absolute elements */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Adjust background color as needed */
+  z-index: 999; /* Ensure it's above other elements */
+  padding: 10px; /* Add padding for spacing */
 }
 
 .logo-container {
