@@ -130,6 +130,15 @@ body {
       align-items: center;
   }
 
+  #T3ZxVldMBvjCkMvC {
+    display: none;
+  }
+
+  #yDzhjCqt7dRfI4gd {
+    display: none;
+  }
+
+
   .menu-items {
       display: none;
       flex-direction: column;
@@ -146,7 +155,7 @@ body {
       display: block;
       position: absolute;
       top: 10px;
-      right: 10px;
+      right: 30px;
   }
 
   .menu-items.show {
@@ -197,4 +206,9 @@ body {
 
 #NYFVvifZo4rs1Sgh:hover, #Nu03kOeQUFwQ4m0E:hover {
   color : #989898 !important;
+}
+
+#Hccs9UkxF1g2VOlu:hover {
+  background-color: #f0f0f0; /* Change color as desired */
+  opacity: 0.8; /* Add a slight opacity change */
 }
