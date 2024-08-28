@@ -217,6 +217,7 @@ body {
 .facebook-feed-container {
   display: flex;
   justify-content: space-between;
+  width: 100%; /* Sets the container to full width */
 }
 
 .feed-column {
@@ -225,4 +226,8 @@ body {
 
 .fb-post {
   /* Styles for each post */
+}
+
+._2p3a {
+  min-width: 1180px;
 }
