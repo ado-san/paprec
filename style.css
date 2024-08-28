@@ -234,9 +234,19 @@ body {
 
 ._2p3a {
   min-width: 1180px !important;
-  width:1180px !important;
+  width: 1180px !important;
 }
 
 .fb_iframe_widget {
   min-width: 1180px;
+}
+
+.fb_iframe_widget iframe {
+  min-width: 1180px !important;
+  width: 1180px !important;
+}
+
+.fb_iframe_widget span {
+  min-width: 1180px !important;
+  width: 1180px !important;
 }
