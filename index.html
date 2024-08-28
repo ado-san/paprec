@@ -12,7 +12,8 @@
       <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"></script>
       <script>
          const accessToken = 'f145307ad1c757bc0371f8688ad9da5e';
-         const apiUrl = `https://graph.facebook.com/me/posts?access_token=${accessToken}&limit=3`;
+         const pageId = 'paprecenergiesstbarth'; // Replace with the actual Facebook Page ID
+         const apiUrl = `https://graph.facebook.com/${pageId}/posts?access_token=${accessToken}&limit=3`;
 
          fetch(apiUrl)
          .then(response => response.json())
@@ -21,7 +22,6 @@
             const posts = data.data;
 
             posts.forEach(post => {
-               // Create a div for each post and append it to the container
                const postDiv = document.createElement('div');
                postDiv.classList.add('fb-post');
 
@@ -1436,14 +1436,14 @@
                      </div>
                   </div>
                </div>
+            </div>
 
                <center><div class="fb-page" data-href="https://www.facebook.com/paprecenergiesstbarth/"
        data-tabs="timeline" data-width="1000" data-height="500"
        data-small-header="true" data-adapt-container-width="true"
        data-hide-cover="true" data-show-faces="true"></div></center>
 
-            </div>
-
+           
             <div class="facebook-feed-container">
                <div class="feed-column"></div>
                <div class="feed-column"></div>
