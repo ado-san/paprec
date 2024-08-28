@@ -231,3 +231,7 @@ body {
 ._2p3a {
   min-width: 1180px;
 }
+
+.fb_iframe_widget {
+  min-width: 1180px;
+}
