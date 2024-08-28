@@ -218,6 +218,10 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%; /* Sets the container to full width */
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .feed-column {
