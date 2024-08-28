@@ -110,6 +110,8 @@ body {
   text-align: center;
   z-index: 2;
   font-family: Arial, sans-serif;
+  background: rgba(1,1,1,0.2);
+  padding: 20px;
 }
 
 .video-container {
