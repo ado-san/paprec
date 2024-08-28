@@ -213,3 +213,16 @@ body {
 #tsHBZHRFMvnbSGNJ:hover {
   color: #1877F2 !important;
 }
+
+.facebook-feed-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed-column {
+  width: 30%; /* Adjust width as needed */
+}
+
+.fb-post {
+  /* Styles for each post */
+}
