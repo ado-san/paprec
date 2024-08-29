@@ -10,32 +10,6 @@
       <link rel="apple-touch-icon" href="725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
       <link rel="stylesheet" href="styles.css">
       <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0"></script>
-      <script>
-         const accessToken = 'f145307ad1c757bc0371f8688ad9da5e';
-         const pageId = 'paprecenergiesstbarth'; // Replace with the actual Facebook Page ID
-         const apiUrl = `https://graph.facebook.com/${pageId}/posts?access_token=${accessToken}&limit=3`;
-
-         fetch(apiUrl)
-         .then(response => response.json())
-         .then(data => {
-            // Process the data and display the posts
-            const posts = data.data;
-
-            posts.forEach(post => {
-               const postDiv = document.createElement('div');
-               postDiv.classList.add('fb-post');
-
-               // Set the post's content (e.g., link, message, image)
-               postDiv.innerHTML = `<a href="${post.permalink_url}">${post.message}</a>`;
-
-               // Append the post div to the container
-               document.querySelector('.facebook-feed-container').appendChild(postDiv);
-            });
-         })
-         .catch(error => {
-            console.error('Error fetching Facebook feed:', error);
-         });
-      </script>
 
       <noscript>
          <style>    @keyframes pulse {}.animated {  animation-play-state: running !important;}  
