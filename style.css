@@ -2,7 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}._2p3a {
+}
+
+._2p3a {
   min-width: 830px !important;
   width: 830px !important;
 }
@@ -234,6 +236,7 @@ body {
 
 .image-container {
   width: 40%; /* Sets the container to full width */
+  margin-top: 30px;
   margin-left: 5%;
   margin-right: 5%;
   display: flex;
@@ -273,9 +276,14 @@ body {
 }
 
 .column {
-  width: 30%; /* Set width for each column */
+  width: 22%; /* Set width for each column */
   padding: 10px; /* Add padding for spacing */
 }
+
+.column1 {
+  width: 10%; /* Set width for each column */
+}
+
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .column {
