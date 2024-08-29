@@ -10,7 +10,13 @@ body {
 }
 
 #myVideo {
-  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#fallbackImage {
+  display: none; /* Initially hide the fallback image */
 }
 
 #myVideo::before {
@@ -110,10 +116,10 @@ body {
 }
 
 .intro-section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
 }
 
 .intro-video, .intro-image {
@@ -148,7 +154,7 @@ body {
 .video-container {
   position: relative;
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
 }
 
 .video-container img {
