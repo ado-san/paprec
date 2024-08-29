@@ -2,6 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+}._2p3a {
+  min-width: 830px !important;
+  width: 830px !important;
 }
 
 #tfQzYNIWktKdYiNd:hover {
@@ -222,7 +225,7 @@ body {
 .facebook-feed-container {
   display: flex;
   justify-content: space-between;
-  width: 40%; /* Sets the container to full width */
+  width: 40% !important; /* Sets the container to full width */
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 30px;
@@ -249,11 +252,6 @@ body {
 
 .fb-post {
   /* Styles for each post */
-}
-
-._2p3a {
-  min-width: 830px !important;
-  width: 830px !important;
 }
 
 
