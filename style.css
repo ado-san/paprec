@@ -214,14 +214,33 @@ body {
   color: #1877F2 !important;
 }
 
+.two-column-section {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing as needed */
+}
+
 .facebook-feed-container {
   display: flex;
   justify-content: space-between;
-  width: 100%; /* Sets the container to full width */
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 40%; /* Sets the container to full width */
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.image-container {
+  width: 40%; /* Sets the container to full width */
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Make image responsive */
+  height: auto;
 }
 
 .feed-column {
@@ -233,13 +252,10 @@ body {
 }
 
 ._2p3a {
-  min-width: 1180px !important;
-  width: 1180px !important;
+  min-width: 830px !important;
+  width: 830px !important;
 }
 
-.fb_iframe_widget {
-  min-width: 1180px;
-}
 
 .fb_iframe_widget iframe {
   min-width: 1180px !important;
@@ -249,4 +265,25 @@ body {
 .fb_iframe_widget span {
   min-width: 1180px !important;
   width: 1180px !important;
+}
+
+.three-column-section {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.column {
+  width: 30%; /* Set width for each column */
+  padding: 10px; /* Add padding for spacing */
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .column {
+    width: 100%; /* Make columns full width on mobile */
+  }
+  .image-container {
+    display: none;
+  }
 }
