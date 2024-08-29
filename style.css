@@ -9,6 +9,32 @@ body {
   width: 830px !important;
 }
 
+#myVideo {
+  position: relative;
+}
+
+#myVideo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed  
+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myVideo::before::after {
+  content: "\e25b6"; /* Play button icon (adjust as needed) */
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
 #tfQzYNIWktKdYiNd:hover {
   color: #d3d3d3 !important; /* Light grey color */
 }
