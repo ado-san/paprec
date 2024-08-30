@@ -344,7 +344,12 @@ body {
     width: 100%; /* Make columns full width on mobile */
   }
   .image-container {
-    display: none;
+    display: block;
+    width: 100%;
+  }
+
+  .two-column-section {
+    flex-direction: column; /* Change to column layout on mobile */
   }
 
   #xnANHYQakoXfIDdG {
@@ -383,6 +388,7 @@ body {
 
   .facebook-feed-container {
     order: 2;
+    width: 100%;
   }
 
   #ZyAx2ghDSpGd7yoq-mobile {
@@ -396,9 +402,9 @@ body {
   #D1ImRoPa1OCkeN7e {
     margin-top:230px;
   }
-  
+
   #D1ImRoPa1OCkeN7e1 {
-    margin-top: 100px;
+    margin-top: 170px;
     margin-left: 40px;
   }
 
