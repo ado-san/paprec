@@ -369,4 +369,7 @@ body {
     width: 200px !important;
   }
 
+  .facebook-feed-container {
+    order: 2;
+
 }
