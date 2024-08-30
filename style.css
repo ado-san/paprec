@@ -326,6 +326,13 @@ body {
   margin-bottom: 100px;
 }
 
+#ZyAx2ghDSpGd7yoq1 {
+  display: none;
+}
+
+#ZyAx2ghDSpGd7yoq {
+  display: block;
+}
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .column {
@@ -371,5 +378,14 @@ body {
 
   .facebook-feed-container {
     order: 2;
+  }
+
+  #ZyAx2ghDSpGd7yoq1 {
+    display: block;
+  }
+
+  #ZyAx2ghDSpGd7yoq {
+    display: none;
+  }
 
 }
