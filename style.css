@@ -254,7 +254,7 @@ body {
 .facebook-feed-container {
   display: flex;
   justify-content: space-between;
-  width: 40% !important; /* Sets the container to full width */
+  width: 30% !important; /* Sets the container to full width */
   margin-left: 15%;
   margin-right: 5%;
   margin-top: 50px;
@@ -262,7 +262,7 @@ body {
 }
 
 .image-container {
-  width: 40%; /* Sets the container to full width */
+  width: 30%; /* Sets the container to full width */
   margin-top: 30px;
   margin-left: 5%;
   margin-right: 5%;
@@ -284,16 +284,6 @@ body {
   /* Styles for each post */
 }
 
-
-.fb_iframe_widget iframe {
-  min-width: 1180px !important;
-  width: 1180px !important;
-}
-
-.fb_iframe_widget span {
-  min-width: 1180px !important;
-  width: 1180px !important;
-}
 
 .three-column-section {
   display: flex;
