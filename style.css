@@ -326,13 +326,18 @@ body {
   margin-bottom: 100px;
 }
 
-#ZyAx2ghDSpGd7yoq1 {
+#ZyAx2ghDSpGd7yoq-mobile {
   display: none;
 }
 
 #ZyAx2ghDSpGd7yoq {
   display: block;
 }
+
+#D1ImRoPa1OCkeN7e {
+  margin-top:0px;
+}
+
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .column {
@@ -380,12 +385,16 @@ body {
     order: 2;
   }
 
-  #ZyAx2ghDSpGd7yoq1 {
+  #ZyAx2ghDSpGd7yoq-mobile {
     display: block;
   }
 
   #ZyAx2ghDSpGd7yoq {
     display: none;
+  }
+
+  #D1ImRoPa1OCkeN7e {
+    margin-top:230px;
   }
 
 }
