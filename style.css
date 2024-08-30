@@ -4,20 +4,6 @@ body {
   padding: 0;
 }
 
-#u_0_0_C1 {
-  min-width: 830px !important;
-  width: 830px !important;
-}
-
-._2p3a {
-  min-width: 830px !important;
-  width: 830px !important;
-}
-
-._2lqg {
-  width: 900px !important;
-}
-
 #myVideo {
   width: 100%;
   height: 100%;
@@ -269,9 +255,9 @@ body {
   display: flex;
   justify-content: space-between;
   width: 40% !important; /* Sets the container to full width */
-  margin-left: 5%;
+  margin-left: 15%;
   margin-right: 5%;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
