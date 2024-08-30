@@ -311,6 +311,12 @@ body {
   padding-bottom: 80px;
 }
 
+.full_width_section {
+    display: flex;
+    width :100%;
+}
+
+
 .column {
   width: 22%; /* Set width for each column */
   padding: 10px; /* Add padding for spacing */
@@ -318,6 +324,27 @@ body {
 
 .column1 {
   width: 10%; /* Set width for each column */
+}
+
+#bGmtze2JC2xiQgk7 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#Lp6CSaVfhP2aGiIM {
+  margin-bottom: 30px;
+}
+
+#q6UNbjHIbwco54j0 {
+  margin-bottom: 40px;
+}
+
+#sdOefAzSMuiyyxju {
+  margin-bottom: 30px;
+}
+
+#xnANHYQakoXfIDdG {
+  margin-bottom: 100px;
 }
 
 
