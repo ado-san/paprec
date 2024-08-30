@@ -254,7 +254,7 @@ body {
 .facebook-feed-container {
   display: flex;
   justify-content: space-between;
-  width: 40% !important; /* Sets the container to full width */
+  width: 40%; /* Sets the container to full width */
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 30px;
@@ -264,7 +264,7 @@ body {
 .image-container {
   width: 40%; /* Sets the container to full width */
   margin-top: 30px;
-  margin-left: 5%;
+  margin-left: 15%;
   margin-right: 5%;
   display: block;
 }
@@ -346,6 +346,7 @@ body {
   .image-container {
     display: block;
     width: 90%;
+    margin-left: 5%;
   }
 
   .two-column-section {
