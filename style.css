@@ -223,15 +223,12 @@ body {
       font-size: 16px; /* Adjust font size for mobile */
   }
 
-  .video-container {
-    /* Add the following styles to target the video and image within the container */
-    > video {
-      display: none;
-    }
+  .video-container > video {
+    display: none;
+  }
 
-    > .fallback-image {
-      display: block;
-    }
+  .video-container > .fallback-image {
+    display: block;
   }
 
   .videoSeek {
