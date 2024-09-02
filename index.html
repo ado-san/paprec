@@ -1578,16 +1578,16 @@
       </script>
 
       <script>
-         const burgerMenu = document.getElementById("burger-menu");
-         const menuItems = document.querySelectorAll(".menu-items a");
+      const burgerMenu = document.getElementById("burger-menu");
+      const menuItems = document.querySelectorAll(".menu-items a");
 
-         burgerMenu.addEventListener("click", () => {
-         menuItems.forEach(item => {
-            item.addEventListener("click", () => {
-               burgerMenu.classList.remove("active");
-            });
+      burgerMenu.addEventListener("click", () => {
+      menuItems.forEach(item => {
+         item.addEventListener("click", () => {
+            document.getElementById("menu-items").classList.remove("show");
          });
-         });
+      });
+      });
    </script>
 
    <script>
