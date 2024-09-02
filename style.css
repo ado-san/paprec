@@ -137,6 +137,10 @@ body {
   display: none; /* Hide image by default */
 }
 
+.fallback-image {
+  display: none;
+}
+
 .intro-text {
   position: absolute;
   top: 40%;
@@ -227,7 +231,7 @@ body {
     display: none;
   }
 
-  .video-container > .fallback-image {
+ .fallback-image {
     display: block;
   }
 
@@ -447,10 +451,6 @@ body {
 
   #LaNRKvDVjPkinxYJ {
     display: none;
-  }
-
-  .fallback-image {
-    display: block;
   }
 
   #daO44U9iDmrNK3jw {
