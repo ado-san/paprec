@@ -344,6 +344,14 @@ body {
   margin-top:0px;
 }
 
+#daO44U9iDmrNK3jw {
+  display:block;
+}
+
+#daO44U9iDmrNK3jwmobile {
+  display:none;
+}
+
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
   .column {
@@ -418,9 +426,18 @@ body {
   #LaNRKvDVjPkinxYJ {
     display: none;
   }
-  
+
   .fallback-image {
     display: block;
   }
+
+  #daO44U9iDmrNK3jw {
+    display:none;
+  }
+
+  #daO44U9iDmrNK3jwmobile {
+    display:block;
+  }
+
 
 }
