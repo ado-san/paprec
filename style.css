@@ -222,6 +222,15 @@ body {
    .intro-text {
       font-size: 16px; /* Adjust font size for mobile */
   }
+
+  .video-container img {
+    display: block;
+  }
+
+  .video-container video {
+    display: none;
+  }
+
 }
 
 #HG6AcJVRYEVLutX8:hover, #LjY6tOEqGJvTIN0Z:hover {
