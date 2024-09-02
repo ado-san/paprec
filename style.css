@@ -12,6 +12,12 @@ body {
 
 #fallbackImage {
   display: none; /* Initially hide the fallback image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #myVideo::before {
@@ -407,6 +413,14 @@ body {
   #D1ImRoPa1OCkeN7e1 {
     margin-top: 170px;
     margin-left: 40px;
+  }
+
+  #LaNRKvDVjPkinxYJ {
+    display: none;
+  }
+  
+  .fallback-image {
+    display: block;
   }
 
 }
