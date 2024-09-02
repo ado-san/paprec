@@ -223,15 +223,31 @@ body {
       font-size: 16px; /* Adjust font size for mobile */
   }
 
-  .video-container img {
-    display: block;
+  .video-container {
+    /* Add the following styles to target the video and image within the container */
+    > video {
+      display: none;
+    }
+
+    > .fallback-image {
+      display: block;
+    }
   }
 
-  .video-container video {
+  .videoSeek {
+    display: none;
+  }
+
+  .soundButton {
+    display: none;
+  }
+
+  .playPauseButton {
     display: none;
   }
 
 }
+
 
 #HG6AcJVRYEVLutX8:hover, #LjY6tOEqGJvTIN0Z:hover {
   color : #989898 !important;
