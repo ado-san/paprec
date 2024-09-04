@@ -423,6 +423,7 @@ body {
 }
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
+  
   .column {
     width: 100%; /* Make columns full width on mobile */
   }
@@ -601,11 +602,15 @@ body {
     cursor: pointer;
     margin: 0 5px; /* Adjust spacing between buttons */
     text-transform: uppercase; 
+    z-index: :2;
   }
   
   .language-button:hover {
     color: #989898;
   }
 
+  #uve {
+    margin-bottom: 20px;
+  }
 
 }
