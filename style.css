@@ -212,7 +212,7 @@ body {
   }
 
   .logo {
-      height: 90px; /* Adjust as needed */
+      height: 80px; /* Adjust as needed */
   }
 
   .intro-video {
@@ -523,6 +523,7 @@ body {
   #QiJs09cIVfXkY3jc {
     grid-area: 10 / 6 / 9 / 10;
     margin-top: 25px;
+    max-width: 275px;
   }
 
   #NpEP1XpFNbW2dveI {
