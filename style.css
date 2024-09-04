@@ -445,7 +445,7 @@ body {
   }
 
   #dGEIbKAubUB72JI6 {
-    max-height: 2310px;
+    max-height: 2200px;
   }
 
   #Ckv6e9jbhqoPgV21 {
@@ -517,7 +517,7 @@ body {
   }
 
   #LMNpA6IGqiPwpezj {
-    max-height: 930px;
+    max-height: 920px;
   }
 
   #QiJs09cIVfXkY3jc {
@@ -544,6 +544,14 @@ body {
 
   #i6OlcERbnjaPoi20 {
     grid-area: 16 / 8 / 17 / 13;
+  }
+
+  #chsAlsfoLDOhwiEK {
+    grid-area: 9 / 4 / 11 / 11;
+  }
+
+  #OWubpt8gJzPnZZ44 {
+    display: none;
   }
 
 }
