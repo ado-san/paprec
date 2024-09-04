@@ -517,7 +517,7 @@ body {
   }
 
   #LMNpA6IGqiPwpezj {
-    max-height: 1120px;
+    max-height: 930px;
   }
 
   #QiJs09cIVfXkY3jc {
@@ -530,8 +530,20 @@ body {
     max-width: 275px;  
   }
 
+  #A3vnZmgHlTlsoJdy {
+    max-width: 275px;
+  }
+
   #rDDqx5FLbFnWGuaj {
     margin-left: -40px;
+  }
+
+  #NkyA7VZWOwNHD6b1 {
+    display:none;
+  }
+
+  #i6OlcERbnjaPoi20 {
+    grid-area: 16 / 8 / 17 / 13;
   }
 
 }
