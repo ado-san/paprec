@@ -551,6 +551,7 @@ body {
   }
 
   #chsAlsfoLDOhwiEK {
+    top: -105px;
     grid-area: 9 / 4 / 11 / 11;
   }
 
@@ -588,6 +589,7 @@ body {
   }
   
   .language-button {
+    display: block;
     background-color: #fdbf15;
     color: white;
     border: none;
