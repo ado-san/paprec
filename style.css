@@ -593,6 +593,8 @@ body {
 
   .button-container {
     display: flex;
+    width: 100%;
+    position: absolute;
     justify-content: center;
     align-items: center;
     align-items: flex-start;
@@ -727,7 +729,17 @@ body {
   max-width: 1200px;
 }
 
+#HWnrCF5oIjuBB7LV {
+  min-width: 266px;
+  margin-left: -17px;
+}
+
 @media (max-width: 768px) { /* Mobile view */
+  #HWnrCF5oIjuBB7LV {
+  min-width: 0;
+  margin-left: 0;
+  }
+
   .button-container-2 {
     grid-template-columns: repeat(2, 1fr); /* Two columns for mobile */
   }
