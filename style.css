@@ -454,7 +454,7 @@ body {
   }
 
   #dGEIbKAubUB72JI6 {
-    max-height: 2200px;
+    max-height: 460px;
   }
 
   #Ckv6e9jbhqoPgV21 {
@@ -634,6 +634,7 @@ body {
 
   .button-container {
     display: flex;
+    flex-wrap: wrap; /* Pour permettre aux colonnes de passer à la ligne */
   }
   
   .button-column {
@@ -656,3 +657,95 @@ body {
   }
 
 }
+
+.button-container-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px; /* Space between buttons */
+  justify-items: center; /* Center the buttons within their grid cells */
+  max-width: 1200px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.button-container-3 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr); /* Three columns */
+  gap: 10px; /* Space between buttons */
+  justify-items: center; /* Center the buttons within their grid cells */
+  max-width: 1200px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.blue-button {
+  background-color: #1b3465;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  width: 100%; /* Stretch the buttons to fill their grid cells */
+  text-align: center; /* Center the button text */
+  max-width: 240px;
+  min-width: 200px;
+  font-family: YAEDY0HKiGw-0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.blue-button-3 {
+  background-color: #1b3465;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 20px;
+  width: 100%; /* Stretch the buttons to fill their grid cells */
+  text-align: center; /* Center the button text */
+  max-width: 390px;
+  font-family: YAEDY0HKiGw-0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.blue-button:hover {
+  cursor: default; /* Prevent cursor change on hover */
+}
+
+.blue-button-3:hover {
+  cursor: default; /* Prevent cursor change on hover */
+}
+
+.title-filiere {
+  clear: both;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-right: 25%;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) { /* Mobile view */
+  .button-container-2 {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for mobile */
+  }
+  .blue-button { 
+max-width: 170px;
+min-width: 150px;  
+}
+
+.title-filiere {
+  clear: both;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 1200px;
+}
+
+}
+
