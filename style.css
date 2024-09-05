@@ -540,7 +540,7 @@ body {
   }
 
   #rDDqx5FLbFnWGuaj {
-    margin-left: -40px;
+    margin-left: 5px;
   }
 
   #NkyA7VZWOwNHD6b1 {
@@ -615,6 +615,11 @@ body {
 
   #rGO8g1oa1c6iCYRA {
     margin-top: -20px;
+  }
+
+  #SfZskuNqALcbMkBk {
+    min-width: 200px;
+    max-width: 235px;
   }
 
 }
