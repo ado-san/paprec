@@ -597,7 +597,7 @@ body {
     align-items: center;
     align-items: flex-start;
     margin-top: 140px;
-    margin-left: 180px;
+    margin-left: 200px;
   }
   
   .language-button {
@@ -634,7 +634,6 @@ body {
 
   .button-container {
     display: flex;
-    flex-wrap: wrap; /* Pour permettre aux colonnes de passer à la ligne */
   }
   
   .button-column {
@@ -745,6 +744,22 @@ min-width: 150px;
   margin-left: 10%;
   margin-right: 10%;
   max-width: 1200px;
+}
+
+#zaYRE3e8XP7rHGaM {
+  font-size:20px;
+}
+
+#EL4l4K77VieoBDQU {
+  font-size:20px;
+}
+
+#nPRKpkOSAMnThaVE {
+  font-size:20px;
+}
+
+#ncD3KtwmXFyTuF7q {
+  font-size:20px;
 }
 
 }
