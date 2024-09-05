@@ -634,7 +634,6 @@ body {
 
   .button-container {
     display: flex;
-    flex-wrap: wrap; /* Pour permettre aux colonnes de passer à la ligne */
   }
   
   .button-column {
