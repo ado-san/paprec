@@ -422,6 +422,10 @@ body {
   display: none;
 }
 
+.button-container {
+  display: none;
+}
+
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
 
   .column {
@@ -626,6 +630,30 @@ body {
   #SfZskuNqALcbMkBk {
     min-width: 200px;
     max-width: 235px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; /* Pour permettre aux colonnes de passer à la ligne */
+  }
+  
+  .button-column {
+    width: 50%; /* Chaque colonne occupe 50% de la largeur */
+    padding: 10px;
+  }
+  
+  .blue-button {
+    background-color: #1b3465;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espace entre les boutons */
+  }
+
+  #laptop-version {
+    display:none;
   }
 
 }
