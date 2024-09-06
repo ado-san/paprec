@@ -831,8 +831,8 @@ min-width: 150px;
   }
 
   #filieres {
-    min-height: 350px;
-    max-height: 370px;
+    min-height: 350px !important;
+    max-height: 370px !important;
   }
 
 }
