@@ -642,7 +642,11 @@ body {
     width: 50%; /* Chaque colonne occupe 50% de la largeur */
     padding: 10px;
   }
-  
+
+  .button-container-3 {
+    display: none;
+  }
+ 
   .blue-button {
     background-color: #1b3465;
     color: white;
@@ -651,12 +655,30 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 10px; /* Espace entre les boutons */
+    max-width: 170px;
+    min-width: 150px;  
+  }
+
+  .blue-button-mobile {
+    background-color: #1b3465;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Espace entre les boutons */
+    max-width: 170px;
+    min-width: 150px;  
   }
 
   #laptop-version {
     display:none;
   }
 
+}
+
+.blue-button-mobile {
+  display: none;
 }
 
 .button-container-2 {
@@ -744,6 +766,10 @@ body {
 
 @media (max-width: 768px) { /* Mobile view */
 
+  .button-container-3 {
+    display: none;
+  }
+
   #filieres {
     min-height: 370px;
     max-height: 400px;
@@ -762,10 +788,11 @@ body {
   .button-container-2 {
     grid-template-columns: repeat(2, 1fr); /* Two columns for mobile */
   }
+
   .blue-button { 
-max-width: 170px;
-min-width: 150px;  
-}
+    max-width: 170px;
+    min-width: 150px;  
+  }
 
 .title-filiere {
   clear: both;
