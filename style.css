@@ -660,15 +660,19 @@ body {
   }
 
   .blue-button-mobile {
+    display: block;
     background-color: #1b3465;
     color: white;
     text-transform: uppercase;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-bottom: 10px; /* Espace entre les boutons */
     max-width: 170px;
     min-width: 150px;  
+    cursor: pointer;
+    font-family: YAEDY0HKiGw-0;
+    font-size: 20px;
+    border-radius: 20px;
   }
 
   #laptop-version {
