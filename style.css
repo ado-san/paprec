@@ -533,6 +533,7 @@ body {
 
   #LMNpA6IGqiPwpezj {
     max-height: 920px;
+    margin-top: -115px;
   }
 
   #QiJs09cIVfXkY3jc {
@@ -775,7 +776,7 @@ min-width: 150px;
 }
 
 #pTCXjaC2wPChXZJS {
-  text-align: left;
+  text-align: left !important;
 }
 
 #jsNIdY28epgx9SMN {
@@ -784,6 +785,15 @@ min-width: 150px;
 
 #uve {
   min-height: 990px;
+}
+
+#xnANHYQakoXfIDdG {
+  max-height: 1500px;
+  margin-top: -10px;
+}
+
+#A8JmUjnolDfarNsA {
+  max-height: 600px;
 }
 
 }
