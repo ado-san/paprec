@@ -442,6 +442,10 @@ body {
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
 
+  #rbuIh4c341My3L1L {
+    margin-top: -25px;
+  }
+
   .column {
     width: 100%; /* Make columns full width on mobile */
   }
@@ -577,7 +581,7 @@ body {
   }
 
   #chsAlsfoLDOhwiEK {
-    top: -105px;
+    top: -30px;
     grid-area: 9 / 4 / 11 / 11;
   }
 
@@ -613,7 +617,7 @@ body {
     justify-content: center;
     align-items: center;
     align-items: flex-start;
-    margin-top: 140px;
+    margin-top: 160px;
   }
   
   .language-button {
