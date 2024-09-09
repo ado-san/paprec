@@ -443,6 +443,7 @@ body {
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
 
   #guide{
+    height: 300px;
     min-height: 300px;
   } 
 
@@ -453,7 +454,7 @@ body {
   .column {
     width: 100%; /* Make columns full width on mobile */
   }
-  
+
   .image-container {
     display: block;
     width: 90%;
