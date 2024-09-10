@@ -177,6 +177,38 @@ body {
   height: auto;
 }
 
+@media (min-width:768px) and (max-width: 986px) {
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.burger-menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.menu-items.show {
+    display: flex;
+}
+
+.logo-container {
+    order: -1; /* Move logo to the top */
+    margin-bottom: 10px;
+}
+
+}
+
 @media screen and (max-width: 768px) {
 
   #filieres-button {
@@ -324,11 +356,6 @@ body {
   width: 30%; /* Adjust width as needed */
 }
 
-.fb-post {
-  /* Styles for each post */
-}
-
-
 .three-column-section {
   display: flex;
   flex-wrap: wrap; /* Allow columns to wrap to the next line on smaller screens */
@@ -438,6 +465,24 @@ body {
 
 .button-container {
   display: none;
+}
+
+@media (min-width:1125px) and (max-width: 1377px) { 
+
+  .menu-item {
+    padding: 13px 10px;
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width:986px) and (max-width: 1124px) { 
+
+  .menu-item {
+    padding: 13px 7px;
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
