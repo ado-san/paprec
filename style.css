@@ -211,6 +211,12 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  .intro-image {
+    position: absolute;
+    top: 106px;
+    max-height: 480px;
+  }
+
   #filieres-button {
     margin-bottom: 40px;
   }
