@@ -211,6 +211,10 @@ body {
 
 @media screen and (max-width: 768px) {
 
+  .intro-section {
+    height: 600px;
+  }
+
   .intro-image {
     position: absolute;
     top: 106px;
