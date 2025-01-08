@@ -23,9 +23,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 1500px;
 }
 
 #fallbackImage {
@@ -343,6 +340,14 @@ body {
  .video-container2 > video {
     display: block;
   }
+
+  #myVideo2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
  .fallback-image {
     display: block;
