@@ -19,7 +19,23 @@ body {
   object-fit: cover;
 }
 
+#myVideo2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #fallbackImage {
+  display: none; /* Initially hide the fallback image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#fallbackImage2 {
   display: none; /* Initially hide the fallback image */
   position: absolute;
   top: 0;
@@ -43,7 +59,29 @@ body {
   align-items: center;
 }
 
+#myVideo2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed  
+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #myVideo::before::after {
+  content: "\e25b6"; /* Play button icon (adjust as needed) */
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#myVideo2::before::after {
   content: "\e25b6"; /* Play button icon (adjust as needed) */
   font-family: FontAwesome;
   font-size: 30px;
