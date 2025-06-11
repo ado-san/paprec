@@ -8,8 +8,13 @@ body {
   display: none;
 }
 
-.X0lBMlRj {
+#X0lBMlRj {
   margin-top: 25px;
+  color: #ffffff;
+  font-family: YAD1bzs0p0Y-0;
+  line-height: 1.399986em;
+  text-align: center;
+  font-size: max(calc(12px * var(--rfso, var(--bfso, 1))), calc(1.46414348em - var(--ffsd)));
 }
 
 #filieres-button {
