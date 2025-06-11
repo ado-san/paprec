@@ -169,7 +169,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 100%; /* Adjust height as needed */
 }
 
 .intro-video, .intro-image {
