@@ -1454,6 +1454,13 @@ body {
 
 @media (max-width: 410px) { /* Mobile view */
 
+  #Hr2zvhKD5aC1WSGL {
+  margin-top: 50px; /* space before SVG */
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
   #A8JmUjnolDfarNsA {
     max-height: 500px;
   }
