@@ -1454,6 +1454,11 @@ body {
 
 @media (max-width: 410px) { /* Mobile view */
 
+    #sXIeRZyaUsL7nrP2 {
+        grid-area: 3 / 5 / 3 / 6;
+        position: relative;
+    }
+
   #Hr2zvhKD5aC1WSGL {
   margin-top: 50px; /* space before SVG */
   position: relative;
