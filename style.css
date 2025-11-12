@@ -265,7 +265,7 @@ body {
     font-family: YAD1bzs0p0Y-0 !important;
     line-height: 1.36763901em !important;
     text-align: center !important;
-    font-size:21.3334px !important;    
+    font-size:17px !important;    
     color: #1b3465 !important;
   }
 
@@ -1368,6 +1368,10 @@ body {
 }
 
 @media (max-width: 768px) { /* Mobile view */
+
+   #f77Wnu2sBPXHM5v6 {
+        font-size: 16px;
+    }
 
   .button-container-3 {
     display: none;
