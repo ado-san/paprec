@@ -206,6 +206,10 @@ body {
 
 @media (max-width: 1024px) {
 
+   #Ws3qGH5ZDJr6zif1 {
+    font-size: 16px;
+   }
+
   .img-right {
     max-width: 130px;
     margin-left: -27px;
@@ -690,6 +694,11 @@ body {
 
 @media (min-width:768px) and (max-width: 986px) {
 
+  #qjEadcKnMIC90I7O {
+        font-family: YAEDY0HKiGw-0;
+        font-size: 15.5px;
+   }
+
   .menu-items {
     display: none;
     flex-direction: column;
@@ -721,6 +730,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+  #qjEadcKnMIC90I7O {
+        font-family: YAEDY0HKiGw-0;
+        font-size: 15.5px;
+   }
 
   .intro-section {
     height: 600px;
@@ -1019,6 +1033,12 @@ body {
 }
 
 @media (max-width: 768px) { /* Adjust breakpoint as needed */
+
+#qjEadcKnMIC90I7O {
+        font-family: YAEDY0HKiGw-0;
+        font-size: 15.5px;
+   }
+
 
   #guide{
     height: 300px;
