@@ -1542,3 +1542,9 @@ body {
   }
 
 }
+
+@media (min-width: 375.05px) and (max-width: 880px) {
+    #Ehyjv0eCrKCkEqgI {
+        font-size: 21.5px;
+    }
+}
