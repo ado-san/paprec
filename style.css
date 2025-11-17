@@ -74,11 +74,6 @@ body {
      margin-left: 19%;
   }
 
-  .img-right {
-    max-width: 130px !important;
-    margin-left: -27px;
-  }
-
   .img-left {display: none;}
   
  #fiveIcons p {
@@ -1575,7 +1570,8 @@ body {
 
 }
 
-@media (min-width: 375.05px) and (max-width: 980px) {
+@media (min-width: 300px) and (max-width: 1190px) {
+
     #Ehyjv0eCrKCkEqgI {
         font-size: 20px;
         font-family: YAEDY0HKiGw-0;
@@ -1614,13 +1610,37 @@ body {
       font-size: 16px;
     }
 
-}
+    .montri-button {
+      background: rgb(164, 198, 63);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-family: YAEDY0HKiGw-0;
+      font-size: 25px;
+      text-decoration: none;
+      display: inline-block;
+      transition: color 0.2s ease;
+    }
+
+
+    .img-right {
+      max-width: 170px !important;
+      margin-left: -27px;
+    }
+
+      .montri-button:hover {
+      color: #989898;
+    }
+
+  }
+
+@media (min-width: 1200px) {
 
 .montri-button {
   background: rgb(164, 198, 63);
     color: white;
     padding: 12px 75px;
-    border-radius: 8px;
+    border-radius: 25px;
     font-family: YAEDY0HKiGw-0;
     font-size: 25px;
     text-decoration: none;
@@ -1631,3 +1651,4 @@ body {
   .montri-button:hover {
     color: #989898;
   }
+}
