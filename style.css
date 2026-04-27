@@ -74,8 +74,8 @@ body {
 
   #tarif-img {
     object-position: 40% 0% !important;
-    max-width: 133px !important;
-    max-height: 114px;
+    max-width: 128px !important;
+    max-height: 110px;
     transform: translate(-50%, -86%) rotate(0deg) !important;
   }
 
