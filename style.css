@@ -17,12 +17,31 @@ body {
   }
 
 
-  @media (max-width: 768px) {
-  #intro-image {
-    width: 100vw;
+@media (max-width: 768px) {
+  .intro-section {
     height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  #intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw !important;
+    height: 100vh !important;
     object-fit: cover;
-    display: block;
+    display: block !important;
+    z-index: 1;
+  }
+
+  .video-container {
+    display: none; /* cache la vidéo sur mobile */
+  }
+
+  .scroll-down-btn {
+    z-index: 10;
   }
 }
 
