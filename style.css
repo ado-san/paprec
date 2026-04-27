@@ -19,10 +19,12 @@ body {
 
 @media (max-width: 768px) {
   .intro-section {
-    height: 100vh;
+    height: 100vh !important;  /* écrase le 600px */
+    min-height: 100vh !important;
     position: relative;
     padding: 0;
     margin: 0;
+    overflow: visible !important;
   }
 
   #intro-image {
@@ -37,11 +39,17 @@ body {
   }
 
   .video-container {
-    display: none; /* cache la vidéo sur mobile */
+    display: none;
   }
 
+  /* Bouton scroll au-dessus de l'image */
   .scroll-down-btn {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 10;
+    display: flex !important;
   }
 }
 
