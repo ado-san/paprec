@@ -16,6 +16,16 @@ body {
     font-size: 24px !important;
   }
 
+
+  @media (max-width: 768px) {
+  #intro-image {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+}
+
   /* Mobile only */
 @media (max-width: 768px) {
   .scroll-down-btn {
